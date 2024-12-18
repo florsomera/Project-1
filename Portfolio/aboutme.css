@@ -1,0 +1,65 @@
+* {
+    font-family: arial;
+    color: #4B5945;
+    align-items: center;
+}
+
+.Header {
+    text-align: center;
+    letter-spacing: 1em;
+    background-color: white;
+    color: black;
+    padding: 20px;
+}
+
+.Corporate {
+    display: flex;
+    background-color: whitesmoke;
+    margin-top: 0px;
+    padding: 3px;
+}
+
+.Corporate {
+    margin-top: 50px;
+    margin-left: 50px;
+    margin-bottom: 50px;
+}
+
+.Volunteer {
+    display: flex;
+    background-color: whitesmoke;
+    margin-top: 0px;
+    padding: 3px;
+}
+
+.Volunteer {
+    margin-top: 50px;
+    margin-left: 50px;
+    margin-bottom: 50px;
+}
+
+
+@media only screen and (max-width: 1024px) {
+    /* for desktop */
+    .Header, .Corporate, .Volunteer {
+        width: 100%;
+    }
+}
+
+
+@media only screen and (max-width: 600px) {
+    /* for tablets */
+    .Header, .Corporate, .Volunteer {
+        width: 100%;
+        background-color: antiquewhite;
+    }
+}
+
+
+@media only screen and (max-width: 320px) {
+    /* for small screen */
+    .Header, .Corporate, .Volunteer {
+        width: 100%;
+        background-color: aquamarine;
+    }
+}

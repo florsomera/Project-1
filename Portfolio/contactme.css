@@ -1,0 +1,30 @@
+
+.Links {
+    background-color: whitesmoke; 
+    margin: 0px;
+    padding: 20px;
+    border: none;
+    align-items: center;
+    color: black;
+}
+
+.header-3 {
+    text-align: center;
+    margin-left: 50px;
+    color: #66785F;
+}
+
+.link1 {
+    text-align: center;
+    color: #66785F;
+}
+
+.link2 {
+    text-align: center;
+    color: #66785F;
+}
+
+.link3 {
+    text-align: center;
+    color: #66785F;
+}

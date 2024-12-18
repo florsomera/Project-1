@@ -1,0 +1,143 @@
+* {
+    box-sizing: border-box;
+}
+
+
+.Flex-container {
+    background-color: #66785F; 
+    margin: 0px;
+    padding: 20px;
+    border: none;
+    align-items: center;
+    letter-spacing: 2em;
+    color: white;
+}
+
+.menu {
+    box-sizing: border-box ;
+    float: left;
+    width: 20%;
+    text-align: center;
+}
+
+
+.menu a {
+    background-color: #91AC8F;
+    padding: 20px;
+    margin-top: 7px;
+    display: block;
+    width: 100%;
+    color: black;
+}
+
+.header-1 {
+    text-align: center;
+}
+
+
+
+.Container-1 {
+  float: left;
+  width: 60%;
+  padding: 0 20px;
+  
+}
+
+.Container-2 {
+  background-color: #e5e5e5;
+  float: left;
+  width: 20%;
+  padding: 15px;
+  margin-top: 7px;
+  text-align: center;
+}
+
+
+
+.Flex-container-2 {
+    background-color: #91AC8F; 
+    margin-top: 20px;
+    padding: 10px;
+    border: none;
+    align-items: center;
+    letter-spacing: 1em;
+    color: white;
+}
+
+.header-2 {
+    text-align: center;
+    margin-left: 50px;
+    background-color: #91AC8F;
+}
+
+
+.container {
+    background-color: white;
+    width: 100%;
+}
+
+
+.skills {
+    text-align: right;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: white;
+}
+
+.html {width: 50%; background-color: #A8CD89;}
+.css {width: 30%; background-color: #A8CD89;}
+
+
+.Links {
+    background-color: #91AC8F; 
+    margin: 50px;
+    padding: 20px;
+    border: none;
+    align-items: center;
+    color: white;
+}
+
+.header-3 {
+    text-align: center;
+    margin-left: 50px;
+    color: white;
+}
+
+.link1 {
+    text-align: center;
+    color: #66785F;
+}
+
+.link2 {
+    text-align: center;
+    color: #66785F;
+}
+
+.link3 {
+    text-align: center;
+    color: #66785F;
+}
+
+@media only screen and (max-width: 1024px) {
+    /* For Desktop */
+    .Flex-container, .menu, .menu a, .header-1, .Container-1, .Container-2, .Flex-container-2, .header-2, .html, .css, .resume, .Links, .header-3, .link1, .link2, .link3 {
+        width: 100%;
+    }
+}
+
+
+@media only screen and (max-width: 600px) {
+    /* For Tablets */
+    .Flex-container, .menu, .menu a, .header-1, .Container-1, .Container-2, .Flex-container-2, .header-2, .html, .css, .resume, .Links, .header-3, .link1, .link2, .link3 {
+        width: 100%;
+        background-color: beige;
+    }
+}
+
+
+@media only screen and (max-width: 320px) {
+    .Flex-container, .menu, .menu a, .header-1, .Container-1, .Container-2, .Flex-container-2, .header-2, .html, .css, .resume, .Links, .header-3, .link1, .link2, .link3 {
+        width: 100%;
+        background-color: blanchedalmond;
+    }
+}
